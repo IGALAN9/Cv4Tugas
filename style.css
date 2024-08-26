@@ -102,3 +102,44 @@ body {
     background-color: #b89258;
     
 }
+
+.container .card-one .hobi-box {
+    margin-top: 15px;
+}
+
+.container .card-one .hobi-box .logo {
+    margin: 10px 0px;
+    display: grid;
+    grid-template: 1fr 1fr/1fr 1fr;
+    grid-row-gap: 15px;
+}
+
+.container .card-one .hobi-box .logo .gaming img{
+    width: 50px; 
+    height: auto; 
+}
+
+.container .card-one .hobi-box .logo .cook img{
+    width: 50px; 
+    height: auto; 
+}
+
+.container .card-one .hobi-box .logo .mancing img{
+    width: 50px; 
+    height: auto; 
+}
+
+.container .card-two{
+    background-color: #ff9933;
+    padding: 40px 20px;
+    padding-right: 75px;
+    color: #e6e6e6;
+}
+
+.container .card-two .head-head-title{
+    margin-top: -20px; 
+}
+
+.container .card-two .head-title{
+    margin-top: 10px;
+}
