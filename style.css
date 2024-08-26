@@ -84,3 +84,21 @@ body {
     background-color: #b89258;
     
 }
+
+.container .card-one .Soft-skills {
+    margin-top: 5px;
+}
+
+.container .card-one .Soft-skills .dot {
+    display: inline-block;
+    width: 10px;
+    height: 5px;
+    background-color: #313131;
+    border-radius: 0%;
+    margin-left: 4px;
+}
+
+.container .card-one .Soft-skills .dot.active {
+    background-color: #b89258;
+    
+}
