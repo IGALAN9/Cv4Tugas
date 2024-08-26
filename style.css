@@ -40,12 +40,47 @@ body {
     background-size: 170%;
 }
 
+.container .card-one .connect-box{
+    margin-top: 10px;
+}
+
+.container .card-one .connect-box>*{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.container .card-one .connect-box>* .text {
+    display: inline-flex;
+    word-break: break-all;
+}
+
 .container .card-one .phone img{
-    width: 50px; 
+    width: 30px; 
     height: auto; 
 }
 
 .container .card-one .email img{
-    width: 50px; 
+    width: 30px; 
     height: auto; 
+}
+
+.container .card-one .skills-box {
+    margin-top: 35px;
+}
+
+.container .card-one .skills-box .dot {
+    display: inline-block;
+    width: 10px;
+    height: 5px;
+    background-color: #313131;
+    border-radius: 0%;
+    margin-left: 4px;
+}
+
+.container .card-one .skills-box .dot.active {
+    background-color: #b89258;
+    
 }
