@@ -8,12 +8,19 @@
 
 body {
     background-color: #acb0b4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 .container {
+    position: relative;
     margin: auto;
     display: grid;
     grid-template-columns: 0.33fr 1fr;
+    max-width: 1000px;
+    min-height: 1000px;
     width: 210mm;
     height: 297mm;
     overflow: hidden;
@@ -21,6 +28,7 @@ body {
 }
 
 .container .card-one {
+    position: relative;
     padding: 40px 20px;
     padding-left: 35px;
     background-color: #d1d1d1;
@@ -258,4 +266,51 @@ body {
 
 .container .card-two .group-3 .desc ul:last-of-type li::before {
     content: none;
+}
+
+@media (min-width: 768px) {
+    .container {
+        grid-template-columns: 0.33fr 1fr;
+        height: 297mm;
+    }
+
+    .container .card-one .profile {
+        margin-left: -15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+
+    .container .card-one,
+    .container .card-two {
+        padding: 20px 10px;
+    }
+
+    .container .card-two .head-head-title {
+        margin-top: 0;
+    }
+    .container .card-one .connect-box>* .text {
+        position: absolute;
+        margin-left: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container .card-one .profile {
+        width: 150px;
+        height: 150px;
+    }
+
+    .container .card-two .box {
+        padding: 2px 10px;
+    }
+
+    .container .card-one .connect-box>* .text {
+        position: absolute;
+        margin-left: 40px;
+    }
 }
