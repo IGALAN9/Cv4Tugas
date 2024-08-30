@@ -57,13 +57,17 @@ body {
     width: 100%;
     display: grid;
     grid-template-columns: 0.3fr 1fr;
-    margin-top: 20px;
+    margin-top: 5px;
     align-items: center;
 }
 
 .container .card-one .connect-box>* .text {
     display: inline-flex;
     word-break: break-all;
+}
+
+.container .card-one .connect-box .box h2{
+    font-size: 21px;
 }
 
 .container .card-one .phone img{
