@@ -147,8 +147,18 @@ body {
     height: auto; 
 }
 
+.container .card-one .box {
+    display: inline-block;
+    padding : 2px 70px 2px 20px;
+    margin-left: -20px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    background-color: #616e70; /* nanti di ubah */
+    color: #2c2b29; /* nanti di ubah */
+}
+
 .container .card-two{
-    background-color: #ff9933;
+    background-color: #1331b9;
     padding: 40px 20px;
     padding-right: 75px;
     color: #e6e6e6;
@@ -161,7 +171,7 @@ body {
 
 
 .container .card-two .head-title{
-    margin-top: 10px; /* nanti tambahin warna font */
+    margin-top: 10px; 
 }
 
 .container .card-two .box {
@@ -169,8 +179,8 @@ body {
     padding : 2px 70px 2px 20px;
     margin-left: -20px;
     margin-top: 35px;
-    background-color: #b89258; /* nanti di ubah */
-    color: #2c2b29; /* nanti di ubah */
+    background-color: #b89258; 
+    color: #2c2b29; 
 }
 
 .container .card-two .group-1 .desc {
@@ -297,6 +307,31 @@ body {
         position: absolute;
         margin-left: 40px;
     }
+    .container .card-one .profile {
+        margin-left: 200px;
+    }
+    .container .card-one .connect-box h2 {
+        margin-left: 240px;
+    }
+    .container .card-one .skills-box h2 {
+        margin-left: 240px;
+    }
+    .container .card-one .Soft-skills h2 {
+        margin-left: 240px;
+    }
+    .container .card-one .hobi-box h2 {
+        margin-left: 240px;
+    }
+
+    .container .card-one .box {
+        display: inline-block;
+        width: 100%;
+        padding: 2px 10px;
+        margin-top: 2px;
+        margin-bottom: 5px;
+        background-color: #616e70; /* nanti di ubah */
+        color: #2c2b29; /* nanti di ubah */
+    }
 }
 
 @media (max-width: 480px) {
@@ -312,5 +347,20 @@ body {
     .container .card-one .connect-box>* .text {
         position: absolute;
         margin-left: 40px;
+    }
+    .container .card-one .profile {
+        margin-left: 0;
+    }
+    .container .card-one .connect-box h2 {
+        margin-left: 0;
+    }
+    .container .card-one .skills-box h2 {
+        margin-left: 0;
+    }
+    .container .card-one .Soft-skills h2 {
+        margin-left: 0;
+    }
+    .container .card-one .hobi-box h2 {
+        margin-left: 0;
     }
 }
