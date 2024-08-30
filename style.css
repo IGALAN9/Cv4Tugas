@@ -76,6 +76,11 @@ body {
     height: auto; 
 }
 
+.container .card-one .Linkin img{
+    width: 30px; 
+    height: auto; 
+}
+
 .container .card-one .github img{
     width: 30px; 
     height: auto; 
@@ -265,7 +270,7 @@ body {
     position: absolute;
     top: 30px;
     left: -18px;
-    height: 130px;
+    height: 80px;
     border-left: 2px solid #b89258;
 }
 
@@ -277,6 +282,8 @@ body {
 .container .card-two .group-3 .desc ul:last-of-type li::before {
     content: none;
 }
+
+
 
 @media (min-width: 768px) {
     .container {
